@@ -15,6 +15,12 @@ Occasionally, changes are made to OpenShift Butane configs (those that specify `
 
 {% comment %}
 
+## From Version 4.17.0 to 4.18.0
+
+There are no breaking changes between versions 4.17.0 and 4.18.0 of the `openshift` configuration specification. Any valid 4.17.0 configuration can be updated to a 4.18.0 configuration by changing the version string in the config.
+
+{% endcomment %}
+
 ## From Version 4.16.0 to 4.17.0
 
 There are no breaking changes between versions 4.16.0 and 4.17.0 of the `openshift` configuration specification. Any valid 4.16.0 configuration can be updated to a 4.17.0 configuration by changing the version string in the config.

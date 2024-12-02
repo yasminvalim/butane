@@ -117,7 +117,6 @@ func (c Config) ToMachineConfig4_18Unvalidated(options common.TranslateOptions) 
 	if r.IsFatal() {
 		return result.MachineConfig{}, ts, r
 	}
-	ts = translateUserGrubCfg(&cfg, &ts)
 
 	// wrap
 	ts = ts.PrefixPaths(path.New("yaml"), path.New("json", "spec", "config"))
